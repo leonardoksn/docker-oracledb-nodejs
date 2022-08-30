@@ -1,0 +1,25 @@
+{
+    "name": "node_oracledb",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "ts-node-dev ./src/index.ts",
+      "build": "tsc",
+      "deploy":"node src/index.js"
+    },
+    "devDependencies": {
+      "@types/node": "^18.7.13",
+      "@types/oracledb": "^5.2.3",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^4.8.2"
+    },
+    "dependencies": {
+      "axios": "^0.27.2",
+      "yarn": "^1.22.19",
+      "dotenv": "^16.0.1",
+      "node-fetch": "^3.2.10",
+      "oracledb": "^5.4.0"
+    }
+  }
+  
